@@ -1,11 +1,13 @@
 import './App.css'
+import StretchesCardGallery from './components/Gallery/StretchesCardGallery'
 
 function App() {
 
   return (
-    <div>
-      <h1>CSS design 모음</h1>
-    </div>
+    <>
+      <h1>StretchesCard</h1>
+      <StretchesCardGallery />
+    </>
   )
 }
 
