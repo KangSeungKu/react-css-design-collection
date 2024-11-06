@@ -9,6 +9,7 @@ const MainPage = () => {
             {/* <Link to='/'>Home</Link> */}
             <Link to='/navs'>Navs</Link>
             <Link to='/cards'>Cards</Link>
+            <Link to='/buttons'>Buttons</Link>
         </nav>
     </>
   )

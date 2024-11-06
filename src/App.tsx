@@ -3,6 +3,7 @@ import './App.css'
 import MainPage from './pages/MainPage'
 import CardsPage from './pages/CardsPage'
 import NavPage from './pages/NavPage'
+import ButtonsPage from './pages/ButtonsPage'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/navs" element={<NavPage />} />
           <Route path="/cards" element={<CardsPage />} />
+          <Route path="/buttons" element={<ButtonsPage />} />
         </Routes>
       </Router>
     </>
