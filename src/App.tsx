@@ -1,13 +1,20 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
-import SquareAimPointButtonGallery from './components/Gallery/SquareAimPointButtonGallery'
-import StretchesCardGallery from './components/Gallery/StretchesCardGallery'
+import MainPage from './pages/MainPage'
+import CardsPage from './pages/CardsPage'
+import NavPage from './pages/NavPage'
 
 function App() {
 
   return (
     <>
-      <StretchesCardGallery />
-      <SquareAimPointButtonGallery />
+      <Router basename='react-css-design-collection'>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/navs" element={<NavPage />} />
+          <Route path="/cards" element={<CardsPage />} />
+        </Routes>
+      </Router>
     </>
   )
 }
