@@ -4,6 +4,7 @@ import MainPage from './pages/MainPage'
 import CardsPage from './pages/CardsPage'
 import NavPage from './pages/NavPage'
 import ButtonsPage from './pages/ButtonsPage'
+import BannersPage from './pages/BannersPage'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/navs" element={<NavPage />} />
+          <Route path="/banners" element={<BannersPage />} />
           <Route path="/cards" element={<CardsPage />} />
           <Route path="/buttons" element={<ButtonsPage />} />
         </Routes>

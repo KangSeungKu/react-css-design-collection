@@ -8,6 +8,7 @@ const MainPage = () => {
         <nav className={navStyle}>
             {/* <Link to='/'>Home</Link> */}
             <Link to='/navs'>Navs</Link>
+            <Link to='/banners'>Banners</Link>
             <Link to='/cards'>Cards</Link>
             <Link to='/buttons'>Buttons</Link>
         </nav>
