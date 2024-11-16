@@ -21,6 +21,6 @@ export const growCardMain = style({
     position: 'relative',
 })
 
-globalStyle(`${growCardContainer} is(*, *:after, *:before) `, {
+globalStyle(`${growCardContainer} :is(*, *:after, *:before) `, {
     boxSizing: 'border-box',
 })
