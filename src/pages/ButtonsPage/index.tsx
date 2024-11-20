@@ -4,6 +4,7 @@ import SquishyButton from "../../components/Buttons/SquishyButton"
 import WaveEffectButton from "../../components/Buttons/WaveEffectButton"
 import TogglePillButtonsGallery from "../../components/Gallery/TogglePillButtonsGallery"
 import { balanceSliderContainer, squishyButtonContainer, waveEffectButtonContainer } from "./buttonsPage.css"
+import FlightSlider from "../../components/Buttons/FlightSlider"
 
 const ButtonsPage = () => {
   const [sliderValue, setSliderValue] = useState<number>(86);
@@ -27,6 +28,10 @@ const ButtonsPage = () => {
       <div className={balanceSliderContainer}>
         <BalanceSlider value={sliderValue} setValue={setSliderValue}/>
       </div>
+    </div>
+    <div>
+      <p>Flight Slide Animation</p>
+      <FlightSlider departure="KOSPI" arrival="NASDAQ"/>
     </div>
   </>
   )
