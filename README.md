@@ -48,3 +48,6 @@ export default tseslint.config({
   },
 })
 ```
+
+## JIRA
+현재 연결 테스트 진행중
